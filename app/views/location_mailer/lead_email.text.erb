@@ -1,0 +1,5 @@
+Here are your practitioner matches:
+
+<% @practitioners.each do |p| %>
+- <%= p[:name] %>, <%= p[:city] %> - <%= p[:phone] %>
+<% end %>
